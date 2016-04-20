@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myappportfollo.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nandegree Apps"
+        android:textSize="29dp"/>
+    <Button
+        style="@style/activity_style"
+        android:text="SCORES APP"
+        android:onClick="scores"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        style="@style/activity_style"
+        android:text="LIBRARY APP"
+        android:onClick="library"
+        android:layout_marginTop="10dp"/>
+    <Button
+        style="@style/activity_style"
+        android:text="BUILD IT BIGGER"
+        android:onClick="build"
+        android:layout_marginTop="10dp"/>
+    <Button
+        style="@style/activity_style"
+        android:text="BACON READER"
+        android:onClick="bacon"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF7F7"
+        android:background="#CD0E3E"
+        android:text="CAPSTONE:MY OWN APP"
+        android:onClick="capstone"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
